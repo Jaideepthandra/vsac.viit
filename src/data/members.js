@@ -11,7 +11,7 @@ export const members = [
     { "name": "Veena Sree Maharana", "designation": "Core Lead", "year": 4, "department": "AI&DS", "regdNo": "22L31A54A7", "image": "/Veena.jpg" },
     { "name": "Rahul Koyilada", "designation": "Secretary", "year": 3, "department": "ME", "regdNo": "23L31A0390", "image": "/Rahul.jpg" },
     { "name": "Veesam Akshata Chandra", "designation": "Secretary", "year": 3, "department": "AI&DS", "regdNo": "23L31A54C7", "image": "/Akshata.jpg" },
-    { "name": "D. Divyasri", "designation": "Co - Treasurer", "year": 3, "department": "EEE", "regdNo": "23L31A0224", "image": "/Divya.png" },
+    { "name": "D. Divyasri", "designation": "Co - Treasurer", "year": 3, "department": "EEE", "regdNo": "23L31A0224", "image": "/Divya.jpg" },
     { "name": "Ch. Sri Vaishnavi", "designation": "Core Team", "year": 3, "department": "CE", "regdNo": "24L35A0104", "image": "/Vaishnavi.jpg" },
     { "name": "Prakriti Uriti", "designation": "Core Team", "year": 3, "department": "ECE", "regdNo": "23L31A04E5", "image": "/Prakriti.jpg" },
     { "name": "Shreyan Pilla", "designation": "Core Team", "year": 3, "department": "CSE", "regdNo": "23L31A05J1", "image": "/Shreyan.jpg" },
@@ -24,7 +24,7 @@ export const members = [
     { "name": "V. Yashash Chandra", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05O8", "image": "/Yashash.jpg" },
     { "name": "Y. Tushar", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05Q1", "image": "/Tushar.jpg" },
     { "name": "Shajid Shaik", "designation": "Club Manager", "year": 3, "department": "ECM", "regdNo": "23L31A1962", "image": "/Shajid.jpg" },
-    { "name": "R. D. V. Prasad", "designation": "Club Manager", "year": 3, "department": "AI&DS", "regdNo": "23L31A5494", "image": "/Prasad.jpg" },
+    { "name": "R. D. V. Prasad", "designation": "Club Manager", "year": 3, "department": "AI&DS", "regdNo": "23L31A5494", "image": "/R D V Prasad.jpg" },
     { "name": "T. Likitha Varshini", "designation": "Club Manager", "year": 3, "department": "AI&DS", "regdNo": "23L31A54B9", "image": "/Likitha.jpg" },
     { "name": "Y. Shyam Kumar", "designation": "Joint Secretary", "year": 2, "department": "CE", "regdNo": "24L31A0196", "image": "/Shyam.jpg" },
     { "name": "M. Jyothika", "designation": "Joint Secretary", "year": 2, "department": "EEE", "regdNo": "24L31A0281", "image": "/Jyothika.jpg" },
@@ -50,7 +50,7 @@ export const members = [
     { "name": "D. Jai Vardhan", "designation": "Club Coordinator", "year": 2, "department": "ECM", "regdNo": "24L31A1914", "image": "/Jai Vardhan.jpg" },
     { "name": "Sonia Paila", "designation": "Club Coordinator", "year": 2, "department": "ECM", "regdNo": "24L31A1941", "image": "/Sonia.jpg" },
     { "name": "Venkatesh R", "designation": "Club Coordinator", "year": 2, "department": "ACSE", "regdNo": "24L31A43E8", "image": "/Venkatesh.jpg" },
-    { "name": "P. Kamal Venkatesh", "designation": "Club Coordinator", "year": 2, "department": "ACSE", "regdNo": "24L31A4681", "image": "/Kamal Venkatesh.jpg" },
+    { "name": "P. Kamal Venkatesh", "designation": "Club Coordinator", "year": 2, "department": "ACSE", "regdNo": "24L31A4681", "image": "/Kamal.jpg" },
     { "name": "M. Sravanthi", "designation": "Club Coordinator", "year": 2, "department": "AI&DS", "regdNo": "24L31A54B0", "image": "/Sravanthi.jpg" },
     { "name": "P. V. N. Sai Lakshmi", "designation": "Club Coordinator", "year": 2, "department": "AI&DS", "regdNo": "24L31A54D6", "image": "/Sai Lakshmi.jpg" }
 ];
