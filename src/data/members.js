@@ -20,7 +20,7 @@ export const members = [
     { "name": "Shaik Abdul Sameer", "designation": "Club Manager", "year": 3, "department": "CE", "regdNo": "24L35A0141", "image": "/Sameer Club Manager.jpg" },
     { "name": "K. Uday Bhaskar", "designation": "Club Manager", "year": 3, "department": "ME", "regdNo": "23L31A0383", "image": "/Uday.jpg" },
     { "name": "K. Pavan Kumar", "designation": "Club Manager", "year": 3, "department": "ECE", "regdNo": "23L31A0494", "image": "/Pavan Club Manager.jpg" },
-    { "name": "Mahamed Mastan Jani", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05F2", "image": "/Mastan.jpg" },
+    { "name": "Mahamed Mastan Jani", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05F2", "image": "/Jani.jpg" },
     { "name": "V. Yashash Chandra", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05O8", "image": "/Yashash.jpg" },
     { "name": "Y. Tushar", "designation": "Club Manager", "year": 3, "department": "CSE", "regdNo": "23L31A05Q1", "image": "/Tushar.jpg" },
     { "name": "Shajid Shaik", "designation": "Club Manager", "year": 3, "department": "ECM", "regdNo": "23L31A1962", "image": "/Shajid.jpg" },
