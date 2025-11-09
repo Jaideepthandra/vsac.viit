@@ -40,7 +40,7 @@ export const members = [
     { "name": "K. Jyothi Pavan", "designation": "Club Coordinator", "year": 2, "department": "EEE", "regdNo": "24L31A0269", "image": "/Pavan Club Coordinator.jpg" },
     { "name": "D. Niraj Kumar", "designation": "Club Coordinator", "year": 2, "department": "EEE", "regdNo": "25L35A0203", "image": "/Niraj Kumar Club Coordinator.png" },
     { "name": "K. Vikas", "designation": "Club Coordinator", "year": 2, "department": "ME", "regdNo": "24L31A0376", "image": "/Vikas Club Coordinator.jpg" },
-    { "name": "N. Lakshmi Tejasri", "designation": "Club Coordinator", "year": 2, "department": "ME", "regdNo": "24L31A03B1", "image": "/Lakshmi Tejasri.jpg" },
+    { "name": "N. Lakshmi Tejasri", "designation": "Club Coordinator", "year": 2, "department": "ME", "regdNo": "24L31A03B1", "image": "/Tejasri.jpg" },
     { "name": "B. Naveen Kumar", "designation": "Club Coordinator", "year": 2, "department": "ECE", "regdNo": "24L31A0423", "image": "/Naveen.jpg" },
     { "name": "P. Praveen Reddy", "designation": "Club Coordinator", "year": 2, "department": "ECE", "regdNo": "24L31A04G1", "image": "/Praveen Reddy.jpg" },
     { "name": "B. Hari Krishna", "designation": "Club Coordinator", "year": 2, "department": "CSE", "regdNo": "24L31A0526", "image": "/Hari Krishna.jpg" },
