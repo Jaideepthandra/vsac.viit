@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 import MemberCard from './components/MemberCard';
 import { members } from './data/members';
 
 function App() {
-    useEffect(() => {
-        AOS.init({
-            duration: 1000,
-            once: true,
-        });
-    }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //         duration: 1000,
+    //         once: true,
+    //     });
+    // }, []);
 
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -56,11 +56,11 @@ function App() {
             </header>
             <main id="member-cards">
                 {Object.entries(groupedMembers).map(([section, membersInSection]) => (
-                    <div key={section} className="section" data-aos="fade-up">
-                        <h2 className="section-title" data-aos="fade-down">{section.split(': ')[1]}</h2>
-                        <div className="card-container" data-aos="zoom-in">
+                    <div key={section} className="section" /* data-aos="fade-up" */>
+                        <h2 className="section-title" /* data-aos="fade-down" */>{section.split(': ')[1]}</h2>
+                        <div className="card-container" /* data-aos="zoom-in" */>
                             {membersInSection.map(member => (
-                                <MemberCard key={member.regdNo} member={member} data-aos="flip-left" />
+                                <MemberCard key={member.regdNo} member={member} /* data-aos="flip-left" */ />
                             ))}
                         </div>
                     </div>

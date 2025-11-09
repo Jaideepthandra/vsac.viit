@@ -29,7 +29,7 @@ export const members = [
     { "name": "Y. Shyam Kumar", "designation": "Joint Secretary", "year": 2, "department": "CE", "regdNo": "24L31A0196", "image": "/images/male.svg" },
     { "name": "M. Jyothika", "designation": "Joint Secretary", "year": 2, "department": "EEE", "regdNo": "24L31A0281", "image": "/images/female.svg" },
     { "name": "G. Bharath", "designation": "Joint Secretary", "year": 2, "department": "ME", "regdNo": "24L31A0347", "image": "/images/male.svg" },
-    { "name": "M. Swamy Shiva Kumar", "designation": "Joint Secretary", "year": 2, "department": "ECE", "regdNo": "24L31A04F3", "image": "/images/male.svg" },
+    { "name": "M. Swamy Shiva Kumar", "designation": "Joint Secretary", "year": 2, "department": "ECE", "regdNo": "24L31A04F3", "image": "/Swamy Shiva Kumar.jpg" },
     { "name": "P. Rahul", "designation": "Joint Secretary", "year": 2, "department": "CSE", "regdNo": "24L31A05V4", "image": "/images/male.svg" },
     { "name": "D. P. V. Puskar", "designation": "Joint Secretary", "year": 2, "department": "IT", "regdNo": "24L31A1237", "image": "/Puskar.jpg" },
     { "name": "T. Vivek", "designation": "Joint Secretary", "year": 2, "department": "ECM", "regdNo": "24L31A1959", "image": "/images/male.svg" },

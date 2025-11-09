@@ -6,7 +6,7 @@ body {
     background-color: #f0f2f5; /* Corporate light gray background */
     padding-top: 180px; /* Increased offset for fixed header height to ensure content visibility */
     color: #333333; /* Dark gray for main text */
-    animation: fadeIn 0.8s ease-in-out;
+    /* animation: fadeIn 0.8s ease-in-out; */
     /* background-image: url('/Vignan_logo.png'); Set Vignan_logo as background */
     background-repeat: no-repeat;
     background-position: center 120px; /* Position logo below the header */
@@ -149,7 +149,7 @@ header h1:hover, header h2:hover, header h3:hover {
     margin: 0.3rem 0;
     font-size: 1rem;
     color: #6c757d; /* Subtle gray for paragraph text */
-    white-space: nowrap; /* Prevent text from wrapping */
+    /* white-space: nowrap; */ /* Prevent text from wrapping */
     transition: color 0.3s ease;
 }
 
@@ -171,7 +171,7 @@ header h1:hover, header h2:hover, header h3:hover {
 .section {
     width: 100%;
     margin-bottom: 3rem;
-    animation: fadeIn 0.8s ease-in-out;
+    /* animation: fadeIn 0.8s ease-in-out; */
 }
 
 .section-title {
@@ -181,13 +181,13 @@ header h1:hover, header h2:hover, header h3:hover {
     font-size: 1.8rem;
     font-weight: 600;
     position: relative;
-    animation: slideInFromLeft 0.6s ease-out;
+    /* animation: slideInFromLeft 0.6s ease-out; */
 }
 
-@keyframes slideInFromLeft {
+/* @keyframes slideInFromLeft {
     from { transform: translateX(-50px); opacity: 0; }
     to { transform: translateX(0); opacity: 1; }
-}
+} */
 
 .section-title::after {
     content: '';
@@ -199,13 +199,13 @@ header h1:hover, header h2:hover, header h3:hover {
     height: 3px;
     background: linear-gradient(to right, #0056b3, #007bff); /* Gradient with primary and accent blue */
     border-radius: 2px;
-    animation: expandWidth 0.8s ease-out 0.3s both;
+    /* animation: expandWidth 0.8s ease-out 0.3s both; */
 }
 
-@keyframes expandWidth {
+/* @keyframes expandWidth {
     from { width: 0; }
     to { width: 60px; }
-}
+} */
 
 .card-container {
     display: flex;
