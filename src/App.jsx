@@ -51,7 +51,7 @@ function App() {
                 <div className="header-text">
                     <h1>Student Activity Council (SAC)</h1>
                     <h2>Vignan's Institute of Information Technology(A)</h2>
-                    <h3>Academic Year 2025-2026</h3>
+                    <h3>Academic Year: 2025-2026</h3>
                 </div>
             </header>
             <main id="member-cards">
