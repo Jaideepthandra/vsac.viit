@@ -1,0 +1,89 @@
+/* ClubCard.css */
+
+.club-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem; /* Vertical spacing between club cards */
+    padding: 1.5rem;
+    max-width: 800px; /* Limit card width */
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.club-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.club-card.even {
+    flex-direction: row; /* Logo on left */
+}
+
+.club-card.odd {
+    flex-direction: row-reverse; /* Logo on right */
+}
+
+.club-card-logo {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    object-fit: contain;
+    margin: 0 1.5rem;
+    border-radius: 50%;
+}
+
+.club-logo-large {
+    width: 200px; /* Even larger size for specific clubs */
+    height: 200px; /* Even larger size for specific clubs */
+}
+
+.club-logo-extra-large {
+    width: 250px; /* Extra large size for Yoga Club */
+    height: 250px; /* Extra large size for Yoga Club */
+}
+
+.club-card-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.club-card-content h3 {
+    margin-top: 0;
+    color: #0056b3; /* Primary corporate blue */
+    font-size: 1.3rem;
+}
+
+.club-card-content p {
+    font-size: 1rem;
+    color: #666;
+    text-align: justify;
+    hyphens: auto;
+}
+
+/* Ensure club cards are centered and stacked vertically */
+.club-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* Space between vertically stacked club cards */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .club-card {
+        flex-direction: column !important; /* Stack logo and content vertically */
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .club-card-logo {
+        margin: 0 auto 1rem auto; /* Center logo and add space below */
+    }
+
+    .club-card-content {
+        text-align: center;
+    }
+}

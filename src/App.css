@@ -207,7 +207,7 @@ header h1:hover, header h2:hover, header h3:hover {
     to { width: 60px; }
 } */
 
-.card-container {
+.member-card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

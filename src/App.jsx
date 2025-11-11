@@ -3,7 +3,9 @@ import './App.css';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 import MemberCard from './components/MemberCard';
+import ClubCard from './components/ClubCard';
 import { members } from './data/members';
+import { clubs } from './data/clubs';
 
 function App() {
     // useEffect(() => {
@@ -58,10 +60,18 @@ function App() {
                 </div>
             </header>
             <main id="member-cards">
+                <div className="section clubs-section">
+                    <h2 className="section-title">Our Clubs</h2>
+                    <div className="club-card-container">
+                        {clubs.map((club, index) => (
+                            <ClubCard key={club.name} club={club} index={index} />
+                        ))}
+                    </div>
+                </div>
                 {Object.entries(groupedMembers).map(([section, membersInSection]) => (
                     <div key={section} className="section" /* data-aos="fade-up" */>
                         <h2 className="section-title" /* data-aos="fade-down" */>{section.split(': ')[1]}</h2>
-                        <div className="card-container" /* data-aos="zoom-in" */>
+                        <div className="member-card-container" /* data-aos="zoom-in" */>
                             {membersInSection.map(member => (
                                 <MemberCard key={member.regdNo} member={member} /* data-aos="flip-left" */ />
                             ))}
