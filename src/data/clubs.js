@@ -47,6 +47,6 @@ export const clubs = [
     {
         "name": "Anchoring Club",
         "logo": "/images/club10_logo.png",
-        "description": "Anchoring Club Description."
+        "description": "Anchoring Club of VIIT(A) celebrates the art of communication and expression through the power of words and presence. It provides students with a platform to showcase their talent in hosting, public speaking, and event presentation. The club encourages confidence, teamwork, and leadership while promoting the spirit of engagement and eloquence through performances, workshops, and intercollegiate events."
     }
 ];
