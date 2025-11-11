@@ -20,12 +20,14 @@ function App() {
     const sections = {
         "Section-1: President": ["President"],
         "Section-2: Vice Presidents": ["Vice - President"],
-        "Sections-3: Treasurer & Core Leads": ["Treasurer", "Core Lead"],
-        "Section-4: Secretaries": ["Secretary"],
-        "Section-5: Co-Treasurer & Core Team": ["Co - Treasurer", "Core Team"],
-        "Section-6: Club Managers": ["Club Manager"],
-        "Section-7: Joint Secretaries": ["Joint Secretary"],
-        "Section-8: Club Coordinators": ["Club Coordinator"],
+        "Sections-3: Treasurer": ["Treasurer"],
+        "Sections-4: Core Leads": ["Core Lead"],
+        "Section-5: Secretaries": ["Secretary"],
+        "Section-6: Co-Treasurer": ["Co - Treasurer"],
+        "Section-7: Core Team": ["Core Team"],
+        "Section-8: Club Managers": ["Club Manager"],
+        "Section-9: Joint Secretaries": ["Joint Secretary"],
+        "Section-10: Club Coordinators": ["Club Coordinator"],
     };
 
     const groupedMembers = Object.keys(sections).reduce((acc, section) => {
