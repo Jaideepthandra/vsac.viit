@@ -28,22 +28,12 @@
 }
 
 .club-card-logo {
-    width: 150px; /* Increased size */
-    height: 150px; /* Increased size */
-    object-fit: contain;
-    margin: 0 1.5rem;
-    border-radius: 50%;
-}
-
-.club-logo-large {
-    width: 200px; /* Even larger size for specific clubs */
-    height: 200px; /* Even larger size for specific clubs */
-}
-
-.club-logo-extra-large {
-    width: 250px; /* Extra large size for Yoga Club */
-    height: 250px; /* Extra large size for Yoga Club */
-}
+        width: 120px; /* Fixed size for all logos */
+        height: 120px; /* Fixed size for all logos */
+        object-fit: contain;
+        margin: 0 1.5rem;
+        border-radius: 50%;
+    }
 
 .club-card-content {
     flex-grow: 1;

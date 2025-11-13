@@ -11,7 +11,7 @@ export const clubs = [
     },
     {
         "name": "Dhyan Chand Sports Club",
-        "logo": "/Sports Club.jpg",
+        "logo": "/Sports Club.png",
         "description": "Dhyan Chand Sports Club of VIIT (A) promotes physical fitness, teamwork, and a spirit of healthy competition among students. The club encourages everyone to actively participate in sports as a way to build discipline, resilience, and leadership skills while maintaining a balance between academics and personal well-being. Through regular practice sessions, tournaments, and intercollegiate events, the club provides a platform for students to showcase their talent and foster unity through sports. Inspired by the legacy of Major Dhyan Chand, it strives to uphold the values of excellence, dedication, and sportsmanship in every endeavor."
     },
     {
@@ -46,7 +46,7 @@ export const clubs = [
     },
     {
         "name": "Anchoring Club",
-        "logo": "/images/club10_logo.png",
+        "logo": "/Anchoring Club.png",
         "description": "Anchoring Club of VIIT(A) celebrates the art of communication and expression through the power of words and presence. It provides students with a platform to showcase their talent in hosting, public speaking, and event presentation. The club encourages confidence, teamwork, and leadership while promoting the spirit of engagement and eloquence through performances, workshops, and intercollegiate events."
     }
 ];
