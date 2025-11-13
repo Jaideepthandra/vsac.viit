@@ -1,5 +1,4 @@
 import React from 'react';
-
 const MemberCard = ({ member }) => {
     return (
         <div className="card">
