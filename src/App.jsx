@@ -61,10 +61,12 @@ function App() {
             </header>
             <main id="member-cards">
                 <div className="section clubs-section">
-                    <h2 className="section-title">Our Clubs</h2>
                     <div className="club-card-container">
                         {clubs.map((club, index) => (
-                            <ClubCard key={club.name} club={club} index={index} />
+                            <React.Fragment key={club.name}>
+                                <ClubCard club={club} index={index} />
+                                {index === 1 && <h2 className="section-title">Our Clubs</h2>}
+                            </React.Fragment>
                         ))}
                     </div>
                 </div>

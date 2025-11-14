@@ -35,6 +35,10 @@
         border-radius: 50%;
     }
 
+.club-card-logo.no-border-radius {
+    border-radius: 0%;
+}
+
 .club-card-content {
     flex-grow: 1;
     text-align: left;

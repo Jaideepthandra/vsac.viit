@@ -1,5 +1,15 @@
 export const clubs = [
     {
+        "name": "About the Student Activity Council",
+        "logo": "/sac-new-logo.png",
+        "description": "Vignan's Institute of Information Technology (VIIT) truly believes that in a student's life, education is not solely about academics, theoretical studies, lectures and seminars but also about learning many more important social consciousness and life skills like leadership skills, Group dynamics, Emotional balance etc., which are considered to be highly essential elements for a student to transform into successful engineer and help the society. To ensure and imbibe above skills and sharpening of minds, the students of VIIT have developed their own student body: \"The Student Activity Council (SAC)\". Thus, the student activity council being the most happening student body, is gripped as the backbone for all student activities and has grown, is growing and will grow to be the most efficient, reliable, effective student body. VIIT's student activity council works according to its motto that there are no secrets to success. It's the \"preparation, hard work and learning from failure.\""
+    },
+    {
+        "name": "Planning and Execution of Institution Clubs",
+        "logo": "/sac-new-logo.png",
+        "description": "The best way to ever experience the vast spectrum of activities would be to join the various clubs. These clubs will help students to meet other enthusiasts and experts in the fields and thus create a perfect learning environment. Making the clubs as a huge bank of collective knowledge which is passed from one batch to another.There are ten clubs such as Fest Fusion, Literary, Sports, Movie, Music, Dance, Eagle, Yoga, Anchoring and Green club which are overseen by the Student Activity Council of the Institution.In addition to the conduction of club activities various events will be planned by the Student Activities council. On this regard an activity calendar of all the activities organized under clubs and other activities will be interspersed by the Student Activity Council and it ensures their execution as per the schedule."
+    },
+    {
         "name": "Latha Mangeshkar Music Club",
         "logo": "/Music Club.png",
         "description": "The Latha Mangeshkar Music Club of VIIT(A) celebrates the joy of music and creativity. It provides a platform for students to express their passion for singing, instrumental music, and composition. The club organizes performances, competitions, and workshops, nurturing talent and fostering teamwork while keeping the spirit of musical excellence alive on campus."
